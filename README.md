@@ -9,3 +9,4 @@ Throughout this project, we have obtained and cleaned data from accelerometers f
 
 
 **tidy_data.txt**: it is a text file containing the tidy dataset generated as an output of the "run_analysis.R" file.
+
