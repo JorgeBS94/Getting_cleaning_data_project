@@ -1,4 +1,5 @@
-### Introduction to the dataset
+Introduction to the dataset
+---------------------------
 
 In this project we have employed the Human Activity Recognition Using
 Smartphones Dataset. This dataset was gathered recording six activities
@@ -10,7 +11,8 @@ linear acceleration and angular velocity. Moreover, those signals were
 filter and processed and a vector of 561 features was obtained by
 computing variables from the time and frequency domain.
 
-### File description
+File description
+----------------
 
 In order to conduct this project, we used the following files:
 
@@ -41,7 +43,29 @@ performed an exercise, which ranges from 1 to 30.
 **"subject\_test.txt"**: it is similar to "subject\_train.txt", but in
 the testing dataset.
 
-### Cleaning data procedure
+Variables
+---------
+
+### Categorical variables
+
+**activity**: is a variable with 6 categories, which correspond to each
+of the exercises the subject was performing (E.g.: WALKING,
+WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+**subject**: it contains the identifiers for each of the people doing
+the exercises. It is a numerical vector that ranges from 1 to 30.
+
+### Continuous variables
+
+They correspond to measurements registered with the gyroscope and the
+accelerometer of the smartphone device that each participant was
+carrying. The acceleration signal from the smartphone accelerometer was
+originally measured in gravity units (g = 9.8 m/s^2), while he angular
+velocity vector measured by the gyroscope in radians/second. However, in
+the raw dataset, features are normalized and bounded within \[-1,1\].
+
+Cleaning data procedure
+-----------------------
 
 In order to produce a tidy dataset, we have carried out an analysis as
 follows:
