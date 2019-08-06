@@ -16,17 +16,17 @@ File description
 
 In order to conduct this project, we used the following files:
 
-**"X\_train.txt"**: contains the training data and it has 7352
-observations of 561 variables.
-
-**"y\_train.txt"**: contains the training set activity labels and it has
-7352 observation of 1 varible.
-
-**"X\_test.txt"**: contains the testing data and it has 2947 obserations
+`X_train.txt`: contains the training data and it has 7352 observations
 of 561 variables.
 
-**"y\_test.txt"**: contains the testing data activity labels and it has
-2947 obserations of 561 variables.
+`y_train.txt`: contains the training set activity labels and it has 7352
+observation of 1 varible.
+
+`X_test.txt`: contains the testing data and it has 2947 obserations of
+561 variables.
+
+`y_test.txt`: contains the testing data activity labels and it has 2947
+obserations of 561 variables.
 
 The number of observations of the training and testing data implies that
 70% of the whole dataset was used to create the training data, while the
@@ -34,14 +34,14 @@ remaining 30% conformed the test data.
 
 Additionally, we used 4 additional files:
 
-**"features.txt"**: it comprises a list of all 561 features or predictor
+`features.txt`: it comprises a list of all 561 features or predictor
 names.
 
-**"subject\_train.txt"**: it contains an identifier for the person who
+`subject_train.txt`: it contains an identifier for the person who
 performed an exercise, which ranges from 1 to 30.
 
-**"subject\_test.txt"**: it is similar to "subject\_train.txt", but in
-the testing dataset.
+`subject_test.txt`: it is similar to "subject\_train.txt", but in the
+testing dataset.
 
 Variables
 ---------
@@ -74,7 +74,7 @@ follows:
     their respective labels, the feature vector and the list of the
     subjects performing the exercises.
 
-2.  We have used the names of the features included in "features.txt" to
+2.  We have used the names of the features included in `features.txt` to
     change the column names in our training and test data.
 
 3.  We have added 2 additional columns to the training and test
@@ -93,4 +93,5 @@ follows:
 
 7.  Finally, we have created a tidy dataset by grouping our previous
     data by subject and by activity label and computing the mean value.
-    The final dataframe has been saved as a txt file.
+    The final dataframe has been saved as a txt file named
+    `tidy_data.txt`.

@@ -18,6 +18,6 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Cleaning data procedure
 
-The file 'run_analysis.R' allows to perform all the neccessary steps to obtain and clean the data, producing the 'tidy_data.txt' file which contains the cleaned dataset. The main steps carried out in this project are explained in detail in the 'CodeBook.md' file.
+The file `run_analysis.R` allows to perform all the neccessary steps to obtain and clean the data, producing the `tidy_data.txt` file which contains the cleaned dataset. The main steps carried out in this project are explained in detail in the `CodeBook.md` file.
 
 
